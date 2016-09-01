@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/Blue</item>
+    </style>
+    <style name="AppTheme.FalseButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Red</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+    <style name="AppTheme.TrueButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/Green</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+</resources>
